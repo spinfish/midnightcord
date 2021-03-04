@@ -20,6 +20,6 @@ MIT, see LICENSE.md for more details
 
 ## previews
 
-![preview](./previews/preview1.png)
-![preview](./previews/preview2.png)
-![preview](./previews/preview3.png)
+![preview](https://media.discordapp.net/attachments/668999977833463821/816928039928856586/unknown.png)
+![preview](https://media.discordapp.net/attachments/668999977833463821/816929444106731541/unknown.png)
+![preview](https://media.discordapp.net/attachments/668999977833463821/816929495629037568/unknown.png)
