@@ -1,0 +1,8 @@
+{
+    "name": "midnightcord",
+    "description": "a simple midnight theme for discord",
+    "version": "1.0.0",
+    "author": "mackenzie#0173",
+    "theme": "theme.css",
+    "license": "MIT"
+}
