@@ -11,7 +11,7 @@ It's somewhat based on the Nocturnal BetterDiscord theme with a few tweaks.
 - Select `Git Bash here` (as shown below) and then type
 
     ```shell
-    git clone https://github.com/spinfish/kaleidoscope
+    git clone https://github.com/spinfish/midnightcord
     ```
 
 ![Git Bash](https://media.discordapp.net/attachments/678012423067926539/835658793253470308/git_bash_here.png)
