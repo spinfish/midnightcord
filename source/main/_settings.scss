@@ -1,0 +1,39 @@
+#app-mount {
+  // Remove game/emoji button
+  .button-2CgfFz {
+    border: 1px solid black;
+    box-shadow: none;
+    background-color: var(--background-accent);
+  }
+
+  // Authorized apps, integrations
+  .card-3Qj_Yx {
+    border-color: var(--background-tertiary);
+    background-color: var(--background-accent);
+  }
+
+  // Dropdown menus
+  .css-gvi9bl-control {
+    border-color: var(--background-tertiary);
+  }
+
+  .css-3vaxre-menu {
+    border-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
+  }
+
+  // Hoverable cards
+  .card-FDVird {
+    box-shadow: none;
+
+    &::before {
+      border-color: var(--background-tertiary);
+      background-color: var(--background-accent);
+    }
+  }
+
+  // Careful - you have unsaved changes!
+  .elevationHigh-1PneE4 {
+    background-color: var(--background-secondary-alt) !important;
+  }
+}

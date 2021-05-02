@@ -1,0 +1,158 @@
+// Regular
+.theme-dark {
+  .footer-2gL1pp,
+  .message-2qRu38 {
+    box-shadow: 0 0 0 1px black;
+    background-color: var(--background-accent);
+  }
+
+  .keyboardShortcutsModal-3piNz7 {
+    background-color: var(--background-accent);
+
+    .divider-3573oO {
+      display: none;
+    }
+  }
+}
+
+// Reactors
+.focusLock-Ns3yie .root-1gCeng {
+  box-shadow: 0 0 0 1px black;
+  background-color: var(--background-primary);
+
+  .scroller-1-nKid {
+    width: auto;
+    border-right: 1px solid var(--background-tertiary);
+    background-color: var(--background-secondary-alt);
+
+    .size14-e6ZScH {
+      padding-right: 4px;
+    }
+  }
+
+  .reactors-Blmlhw {
+    width: 85%;
+    background-color: var(--background-secondary);
+  }
+
+  .reactor-3UBcOI {
+    box-shadow: none;
+  }
+}
+
+// Screen share
+#app-mount .item-3T2z1R {
+  border-color: var(--background-tertiary);
+
+  &.selectorButton-EEUWed {
+    &:hover {
+      background: transparent;
+    }
+
+    &.selectorButtonSelected-t5V9On {
+      background-color: var(--midnightcord-blurple-replace);
+    }
+  }
+}
+
+// Uploads
+#app-mount .uploadModal-2ifh8j {
+  box-shadow: 0 0 2px 2px var(--background-tertiary);
+  background-color: var(--background-primary);
+
+  .icon-kyxXVr:not(.image-2yrs5j) {
+    filter: invert(0.95); // Thanks D Mack#4481!
+  }
+
+  .footer-3mqk7D {
+    box-shadow: none;
+    background-color: var(--background-secondary);
+  }
+}
+
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc {
+  &,
+  .bgScale-1otPtc {
+    background-color: var(--background-primary);
+  }
+
+  .inner-3nWsbo {
+    border-color: var(--midnightcord-blurple-replace);
+  }
+
+  .icons-1w691d {
+    filter: invert(0.95);
+  }
+}
+
+// Accept invite
+.scroller-3__pG8 {
+  box-shadow: 0 0 2px 2px var(--background-tertiary);
+  background-color: var(--background-secondary);
+
+  .colorHeaderPrimary-26Jzh- {
+    color: var(--midnightcord-blurple-replace);
+  }
+
+  .button-3k0cO7 {
+    background-color: var(--background-accent);
+
+    &:hover {
+      background-color: var(--background-modifier-hover);
+    }
+  }
+}
+
+// Quickswitcher
+.quickswitcher-3JagVE > .input-2VB9rf {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-tertiary);
+}
+
+// Invite to Server - Discord is stupid
+.theme-light .root-1gCeng {
+  box-shadow: none;
+  background-color: var(--background-accent);
+
+  .colorHeaderPrimary-26Jzh- {
+    color: var(--midnightcord-blurple-replace);
+  }
+
+  .container-UC8Ug1 {
+    border-color: black;
+    color: var(--midnightcord-blurple-replace);
+    background-color: var(--background-primary);
+
+    &:hover {
+      background-color: var(--background-modifier-selected);
+    }
+  }
+
+  .sampleLink-2NLvZg {
+    color: var(--text-muted);
+  }
+
+  .footer-2gL1pp {
+    box-shadow: none;
+    border-top: 1.5px solid black;
+    background-color: inherit;
+
+    .footerTitle-2CYZch {
+      margin-bottom: 16px;
+      color: var(--midnightcord-blurple-replace);
+    }
+
+    .sizeMin-1mJd1x {
+      color: var(--midnightcord-blurple-replace);
+    }
+
+    .footerButton-ayFTfX.lookFilled-1Gx00P {
+      box-shadow: 0 0 0 1px black;
+      background-color: var(--background-primary);
+
+      &:hover {
+        background-color: var(--background-modifier-selected)
+      }
+    }
+  }
+}

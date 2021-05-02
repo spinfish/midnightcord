@@ -1,0 +1,217 @@
+@use '../helpers/extends' as *;
+@use '../helpers/functions' as *;
+
+#app-mount {
+  // Autocomplete
+  .autocompleteInner-zh20B_ {
+    background-color: var(--background-secondary-alt);
+
+    .selected-1Tbx07 {
+      background-color: var(--background-primary);
+    }
+  }
+
+  // Jump to present + new unreads at top
+  .barButtonBase-2uLO1z {
+    color: var(--midnightcord-blurple-replace);
+  }
+
+  .newMessagesBar-265mhP,
+  .jumpToPresentBar-G1R9s6 {
+    @extend %message-bar;
+  }
+
+  // Pinned messages
+  .messagesPopoutWrap-1MQ1bW {
+    width: 550px;
+  }
+
+  // Toolbar
+  .updateIconForeground-3tnNZn {
+    fill: var(--midnightcord-blurple-replace);
+  }
+
+  // Voice calls
+  .voiceAvatar-14IynY + .status-1WEaea,
+  .callContainer-36WRfH .bottomControls-lIJyYL .red-33-Lnk {
+    background-color: var(--midnightcord-bright-red);
+  }
+
+  // Streaming
+  .live-vBWnV6 {
+    background-color: var(--midnightcord-bright-red) !important;
+  }
+
+  // Mentions
+  .mention.wrapper-3WhCwL {
+    color: var(--midnightcord-blurple-replace);
+    background-color: rgba(get-as-sass('blurple-replace'), 0.1);
+
+    &:hover {
+      filter: brightness(140%);
+    }
+  }
+
+  // Search tags
+  .searchAnswer-3Dz2-q,
+  .searchFilter-2ESiM3 {
+    color: var(--text-normal);
+    background-color: var(--background-secondary);
+  }
+
+  // Search box
+  #search-results {
+    border-radius: 5px;
+    background-color: var(--background-accent);
+    box-shadow: 0 0 0 1px var(--background-tertiary), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+
+    .queryContainer-RKFJW- {
+      border-color: var(--background-tertiary);
+    }
+
+    .focused-2bY0OD {
+      border-color: var(--background-primary);
+      background-color: var(--background-tertiary);
+    }
+
+    .option-96V44q {
+      &::after {
+        background: transparent;
+      }
+
+      &.selected-rZcOL- {
+        border-radius: 10px;
+        border: 1px solid var(--background-tertiary);
+        background-color: var(--background-primary);
+
+        &::before {
+          padding-left: 10px;
+          background-color: var(--background-secondary-alt);
+        }
+      }
+    }
+  }
+
+  // Datepicker footer
+  .datePicker--XZbmJ {
+    background-color: var(--background-accent);
+
+    .hintValue-29ny8Z {
+      color: var(--text-normal);
+      background-color: var(--midnightcord-blurple-replace);
+    }
+  }
+
+  // Datepicker main
+  .calendarPicker-2yf6Ci .react-datepicker {
+    background-color: inherit;
+
+    &__header {
+      background-color: inherit;
+    }
+
+    &__current-month {
+      border: none;
+      color: var(--midnightcord-blurple-replace);
+      font-size: 20px;
+    }
+
+    &__navigation {
+      &--next,
+      &--previous {
+        border-color: var(--background-tertiary);
+      }
+    }
+
+    &__day {
+      border-color: black;
+      background-color: var(--background-modifier-hover);
+      font-weight: 550;
+
+      &:hover {
+        background-color: var(--background-secondary);
+        font-weight: bolder;
+      }
+
+      &--selected::after {
+        background-color: var(--midnightcord-blurple-replace);
+      }
+
+      &--disabled,
+      &--disabled:hover {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  // Messages
+  .message-2qnXI6 {
+    // Hovering
+    &:hover {
+      background-color: var(--midnightcord-message-hover);
+    }
+
+    // Clyde and replying
+    &.ephemeral-1PsL1r,
+    &.replying-1x3H0T {
+      background-color: rgba(get-as-sass('blurple-replace'), 0.06);
+
+      &::before {
+        background-color: var(--midnightcord-blurple-replace);
+      }
+    }
+  }
+
+  // Spoilers
+  .spoilerWarning-2aAZq1 {
+    background-color: var(--midnightcord-spoiler-colour);
+  }
+
+  .spoilerText-3p6IlD {
+    background-color: var(--midnightcord-spoiler-colour);
+
+    &:hover > .inlineContent-3ZjPuv {
+      opacity: 1;
+    }
+  }
+
+  // Toolbar
+  .wrapper-2aW0bm {
+    box-shadow: 0 0 0 1px black;
+    background-color: var(--background-accent);
+
+    .button-1ZiXG9 {
+      &:hover:not(.dangerous-2r8KxV) {
+        background-color: var(--background-modifier-selected);
+      }
+
+      &.dangerous-2r8KxV {
+        color: var(--midnightcord-bright-red);
+
+        &:hover {
+          color: white;
+          background-color: var(--midnightcord-bright-red);
+        }
+      }
+    }
+  }
+
+  // Red unread bar
+  .isUnread-3Ef-o9 {
+    border-color: var(--midnightcord-bright-red);
+
+    > .content-1o0f9g {
+      color: var(--midnightcord-bright-red);
+    }
+
+    > .unreadPill-2HyYtt {
+      background-color: var(--midnightcord-bright-red);
+
+      path {
+        fill: var(--midnightcord-bright-red);
+        color: var(--midnightcord-bright-red);
+      }
+    }
+  }
+}

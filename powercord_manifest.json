@@ -1,8 +1,8 @@
 {
     "name": "midnightcord",
-    "description": "a simple midnight theme for discord",
-    "version": "1.0.0",
+    "description": "A simple midnight theme for Powercord.",
+    "version": "2.0.0",
     "author": "mackenzie#0173",
-    "theme": "theme.css",
+    "theme": "_index.scss",
     "license": "MIT"
 }

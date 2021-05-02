@@ -1,0 +1,17 @@
+@use '../helpers/extends' as *;
+
+// Inputs
+.inputDefault-_djjkz {
+  @extend %generic-input;
+  border-color: var(--background-tertiary);
+}
+
+// NEW badge when receiving messages
+.unreadMentionsBar-1Bu1dC.mention-1f5kbO  {
+  background-color: var(--midnightcord-bright-red);
+}
+
+// Mention bages
+.numberBadge-2s8kKX {
+  background-color: var(--midnightcord-bright-red) !important;
+}

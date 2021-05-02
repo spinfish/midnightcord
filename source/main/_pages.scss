@@ -1,0 +1,90 @@
+@use '../helpers/variables' as *;
+
+#app-mount {
+  // Discovery
+  .pageWrapper-1PgVDX {
+    background-color: var(--background-primary);
+  }
+
+  .categoryItem-1QIroW.selectedCategoryItem-FHKU_o > div {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-selected);
+  }
+
+  // Nitro
+  .wrapper-3nSjSv {
+    background: $nitro-header-gradient;
+  }
+
+  .perksModalContentWrapper-2HU6uL {
+    background-color: var(--background-primary);
+  }
+
+  .barBackground-2EEiLw {
+    background-color: var(--background-tertiary)
+  }
+
+  .tierMarkerGroup-xg6A1d {
+    &.selectedTier-1JkO7i [style*='rgb(32, 34, 37)'] {
+      background-color: var(--background-modifier-selected) !important;
+    }
+
+    &:not(.selectedTier-1JkO7i) .tierMarkerInProgress-24LMzJ {
+      background-color: var(--background-secondary) !important;
+    }
+  }
+
+  .tierMarkerBackground-3q29am {
+    box-shadow: 0 0 0 1px var(--background-tertiary);
+    background-color: var(--background-tertiary);
+  }
+
+  .tierHeaderUnlocked-1n-OTI {
+    background-image: $nitro-header-gradient;
+  }
+
+  .tierBody-16Chc9 {
+    border: 1px solid var(--background-tertiary);
+    color: var(--text-normal);
+    font-weight: 550;
+    background-color: var(--background-accent);
+  }
+
+  .tierHeader---JJFb {
+    background-color: var(--background-secondary-alt);
+  }
+
+  .perk-2WeBWW {
+    background-color: var(--background-accent);
+  }
+
+  // Friends
+  .peopleColumn-29fq28 {
+    background-color: var(--background-accent);
+  }
+
+  .itemCard-v9viV7 {
+    .body-1ld4H7 {
+      background-color: inherit;
+    }
+
+    .section-2gLsgF {
+      margin-top: 7.5px;
+      background-color: var(--background-secondary);
+    }
+
+    .separator-XqIyoz {
+      display: none;
+    }
+
+    &.interactive-3B9GmY:not(.active-1xchHY):hover {
+      background-color: var(--midnightcord-spoiler-colour);
+    }
+
+    &.active-1xchHY {
+      background-color: var(--background-modifier-hover);
+    }
+  }
+}
+
+

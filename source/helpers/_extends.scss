@@ -1,0 +1,21 @@
+@use 'functions' as *;
+
+%generic-input {
+  &:hover {
+    border-color: rgba(get-as-sass('blurple-replace'), 0.3);
+  }
+
+  &:focus {
+    border-color: var(--midnightcord-blurple-replace);
+  }
+}
+
+%message-bar {
+  opacity: 1;
+  background-color: var(--background-secondary-alt);
+
+  &:hover {
+    box-shadow: none;
+    background-color: var(--midnightcord-spoiler-colour);
+  }
+}

@@ -1,0 +1,144 @@
+@use '../helpers/mixins' as *;
+@use '../helpers/extends' as *;
+
+#app-mount {
+  // Voice channels
+  .userLimit-3aerPX > .wrapper-2tAnRe {
+    border: 1px solid var(--background-tertiary);
+  }
+
+  // Text channels
+  .containerDefault--pIXnN {
+    &:hover {
+      @include guild-channel(var(--midnightcord-blurple-replace));
+    }
+
+    .unread-2lAfLh {
+      background-color: var(--midnightcord-blurple-replace);
+    }
+
+    .modeUnread-1qO3K1 {
+      @include guild-channel(var(--midnightcord-blurple-replace));
+    }
+  }
+
+  // New unreads popup
+  .unreadBar-3t3sYc {
+    box-shadow: 0 0 0 1px var(--background-tertiary);;
+    background-color: var(--background-tertiary);
+  }
+
+  // Generic role popout
+  .roleRemoveIcon-2-TeGW {
+    cursor: pointer;
+
+    path {
+      fill: black;
+    }
+  }
+
+  .container-3XJ8ns {
+    border-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
+  }
+
+  // Colour picker
+  .colorPickerCustom-2CWBn2 {
+    border: none;
+    border-radius: 10px;
+    right: 80px;
+    position: relative;
+    box-shadow: 0 0 0 2px black;
+    background-color: var(--background-secondary-alt);
+  }
+
+  // Emoji input
+  .emojiInput-1aLNse {
+    @extend %generic-input;
+    background-color: var(--background-secondary);
+  }
+
+  // Audit log
+  .auditLog-3jNbM6 {
+    border: 1px solid var(--background-tertiary);
+
+    [aria-expanded='true'] {
+      box-shadow: none;
+      background-color: var(--background-secondary-alt);
+    }
+
+    [aria-expanded='false'] {
+      background-color: var(--background-secondary);
+    }
+
+    .divider-1pnAR2 {
+      background-color: var(--background-tertiary);
+    }
+
+    > .changeDetails-bk98pu {
+      background: var(--background-secondary);
+    }
+  } 
+
+  // Community checklists
+  .checklist-3Y6Fqp,
+  .checklistContainer-mFJZEJ {
+    border: 1px solid var(--background-tertiary);
+
+    > .separator-Hx_3SF,
+    > .separator-1COOpU {
+      opacity: 0.9;
+      background-color: black;
+    }
+  }
+
+  // Boost status
+  .tierInProgress-3mBoXq {
+    background-color: var(--background-accent);
+  }
+
+  .bar-3S3dlZ {
+    color: var(--background-accent);
+  }
+
+  .tierHeaderContent-2-YfvN {
+    border-width: 1px;
+    border-style: solid solid none solid;
+    border-color: black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: var(--background-secondary-alt)
+  }
+
+  .tierBody-x9kBBp {
+    border: 1px solid var(--background-tertiary);
+    background-color: var(--background-accent);
+  }
+
+  // Member management
+  .overflowRolesPopout-140n9i {
+    &[class*='popout'] {
+      overflow: auto;
+
+      // I tried as much as I could to customize it futher
+      // to no avail. Kept giving me the ugly default one
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    &[class*='popout'],
+    .overflowRolesPopoutArrow-2O66oH {
+      box-shadow: 0 0 0 1px var(--background-tertiary);
+      background-color: var(--background-secondary);
+    }
+
+    .overflowRolesPopoutHeaderText-1SW-y3 {
+      color: var(--midnightcord-blurple-replace);
+    }
+
+    .overflowRolesPopoutHeaderIcon-6PNEZA path {
+      fill: var(--midnightcord-blurple-replace);
+    }
+  }
+}

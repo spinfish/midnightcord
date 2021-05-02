@@ -1,0 +1,18 @@
+$base-colours: (
+  'blurple-replace': rgb(97, 179, 222),
+  'spoiler-colour': rgb(0, 0, 13),
+  'message-hover': rgb(21, 24, 30),
+  'bright-red': rgb(227, 60, 23),
+  'almost-white': rgb(251, 251, 251),
+  'nitro-pink': rgb(250, 110, 246)
+);
+
+$nitro-header-gradient: linear-gradient(
+  to right,
+  var(--midnightcord-blurple-replace),
+  var(--midnightcord-nitro-pink)
+);
+
+$mini-nitro-icon: url(
+  'https://discord.com/assets/386884eecd36164487505ddfbac35a9d.svg'
+);

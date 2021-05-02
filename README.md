@@ -1,25 +1,22 @@
 # midnightcord
-a simple midnight theme for discord that's nice on your eyes.
-it's somewhat based on the nocturnal betterdiscord theme with a few tweaks.
+A simple midnight theme for Discord that's nice on your eyes.
+It's somewhat based on the Nocturnal BetterDiscord theme with a few tweaks.
 
-**this is the first theme i've ever made, and it definitely won't be perfect, so there's most likely going to be little things that aren't themed and it may break when discord updates. if you find anything that's not themed properly or you have any questions, make an issue or a PR that fixes it here.**
+![Main Preview](https://media.discordapp.net/attachments/678012423067926539/838307888158081054/midnightcord_main_preview.png)
 
-## installation
+## Installation
 
-right click on your powercord folder > src > Powercord > themes folder and click "Git Bash here" (as shown in the screenshot below), and then type:
+- Navigate to your `powercord` folder
+- Go to `src > Powercord` and right click `themes`
+- Select `Git Bash here` (as shown below) and then type
 
-```shell
-git clone https://github.com/spinfish/midnightcord
-```
+    ```shell
+    git clone https://github.com/spinfish/kaleidoscope
+    ```
 
-![image](https://media.discordapp.net/attachments/666510091658330123/774750205899309056/gitbashhere.png?width=556&height=352)
+![Git Bash](https://media.discordapp.net/attachments/678012423067926539/835658793253470308/git_bash_here.png)
 
-## license
+## Extra previews
 
-MIT, see LICENSE.md for more details
-
-## previews
-
-![preview](https://media.discordapp.net/attachments/668999977833463821/816928039928856586/unknown.png)
-![preview](https://media.discordapp.net/attachments/668999977833463821/816929444106731541/unknown.png)
-![preview](https://media.discordapp.net/attachments/668999977833463821/816929495629037568/unknown.png)
+![Preview Two](https://media.discordapp.net/attachments/678012423067926539/838307912610742313/midnightcord_preview_two.png)
+![Preview Three](https://media.discordapp.net/attachments/678012423067926539/838307942645760020/midnightcord_preview_three.png)

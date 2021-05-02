@@ -1,0 +1,156 @@
+@use '../helpers/variables' as *;
+@use '../helpers/functions' as *;
+@use '../helpers/extends' as *;
+
+// BETA text
+.beta-3smTDE {
+  color: var(--midnightcord-bright-red);
+}
+
+// Bot tags
+.botTag-2WPJ74 {
+  color: var(--text-normal);
+  background-color: var(--midnightcord-blurple-replace);
+}
+
+// Popout
+.userPopout-3XzG_A {
+  width: 255px;
+  box-shadow: 0 0 0px 1px var(--background-tertiary);
+
+  .headerNormal-T_seeN {
+    background-color: var(--background-secondary-alt);
+  }
+
+  > [class^='header']:not(.headerNormal-T_seeN) {
+    background-color: var(--background-primary);
+  }
+
+  > .footer-1fjuF6,
+  > .scrollerBase-289Jih {
+    background-color: var(--background-secondary);
+  }
+}
+
+// Profile
+.root-SR8cQa {
+  .topSectionPlaying-1J5E4n,
+  .topSectionSpotify-1lI0-P,
+  .topSectionStreaming-1Tpf5X {
+    background-color: var(--background-secondary-alt);
+  }
+
+  // Make the Send Message text not match the background
+  [class^='topSection']:not(.topSectionNormal-2-vo2m) div + button .contents-18-Yxp {
+    font-weight: 600;
+    color: var(--background-tertiary);
+  }
+
+  .connectedAccount-36nQx7 {
+    border-color: var(--background-tertiary);
+    background-color: var(--background-accent);
+
+    &:hover {
+      background-color: var(--background-modifier-active);
+    }
+  }
+
+  .connectedAccountVerifiedIcon-3aZz_K {
+    .childContainer-1wxZNh path {
+      fill: var(--background-tertiary);
+    }
+
+    .flowerStar-1GeTsn path {
+      fill: var(--midnightcord-blurple-replace);
+    }
+  }
+}
+
+// Voice and video
+#app-mount {
+  .previewOverlay-2O7_KC {
+    border: 1px solid var(--background-tertiary);
+  }
+
+  .previewOverlayInner-1WXURq {
+    background-color: var(--background-secondary);
+  }
+}
+
+// Overlay
+.notificationSettings-1NQKPR .wrapper-3jrx9n {
+  &:not(.disabledSelected-2Kf0yZ) {
+    border-color: var(--midnightcord-blurple-replace);
+  }
+
+  &.disabledSelected-2Kf0yZ {
+    border-color: var(--midnightcord-bright-red);
+
+    .disabledIcon-9QatvX path[fill='currentColor'] {
+      fill: var(--midnightcord-bright-red);
+    }
+  }
+
+  .option-n0icdO {
+    &:hover {
+      background-color: rgba(get-as-sass('blurple-replace'), 0.7);
+    }
+
+    &.selected-mKYnfr {
+      background-color: var(--midnightcord-blurple-replace);
+    }
+  }
+}
+
+// Billing
+.paymentHistory-2FXzro {
+  .paymentPane-3bwJ6A {
+    border: 1px solid var(--background-tertiary);
+  }
+
+  .paginator-166-09,
+  .paymentRow-2e7VM6 {
+    border: none;
+    background-color: var(--background-secondary);
+  }
+
+  .scrollerBase-289Jih {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid none solid;
+    width: 665px;
+  }
+
+  .gameIcon-gg34Dz {
+    background-image: $mini-nitro-icon !important;
+  }
+
+  .hoverablePayment-Yc6mK7:hover {
+    background-color: var(--background-secondary-alt);
+  }
+
+  .expandedInfo-3kfShd {
+    background-color: var(--background-secondary-alt);
+
+    .paymentText-2vaF7U {
+      color: var(--text-normal);
+    }
+  }
+}
+
+// Game activity
+#app-mount {
+  .addGamePopout-2RY8Ju.elevationBorderHigh-2WYJ09 {
+    box-shadow: 0 0 0 1px var(--background-tertiary);
+    background-color: var(--background-secondary);
+  }
+
+  .game-1ipmAa .gameNameInput-385LoS {
+    @extend %generic-input;
+
+    &:hover,
+    &:focus {
+      background-color: var(--background-secondary);
+    }
+  }
+}
