@@ -3,8 +3,8 @@
 
 #app-mount {
   // Filled
-  .lookFilled-1Gx00P {
-    &.colorBrand-3pXr91 {
+  .lookFilled-yCfaCM {
+    &.colorBrand-I6CyqQ {
       @include filled-button(get-as-sass('blurple-replace'));
     }
 
@@ -15,7 +15,7 @@
 
   // Outlined
   .lookOutlined-3sRXeN {
-    &.colorBrand-3pXr91 {
+    &.colorBrand-I6CyqQ {
       @include border-button(get-as-sass('blurple-replace'));
     }
 
@@ -36,14 +36,14 @@
   .colorDanger-2qLCe1 {
     color: var(--midnightcord-bright-red);
 
-    &.focused-3afm-j,
-    &:active:not(.hideInteraction-1iHO1O) {
+    &.focused-3qFvc8,
+    &:active:not(.hideInteraction-2jPGL_) {
       color: var(--text-normal);
       background-color: var(--midnightcord-bright-red);
     }
   }
 
-  .colorDefault-2K3EoJ:not([class*='Danger']) {
+  .colorDefault-CDqZdO:not([class*='Danger']) {
     @include popout-button;
   }
 
@@ -61,7 +61,7 @@
   }
 
   // Sliders
-  .slider-1PF9SW .bar-2Qqk5Z .barFill-23-gu- {
+  .slider-1NC-Gf .bar-2Qqk5Z .barFill-23-gu- {
     background-color: var(--midnightcord-blurple-replace);
   }
 

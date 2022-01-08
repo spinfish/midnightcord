@@ -30,7 +30,7 @@
   $colour: get-as-sass($colour-name);
   color: #{$colour};
 
-  &:active:not(.hideInteraction-1iHO1O) {
+  &:active:not(.hideInteraction-2jPGL_) {
     color: white;
 
     @if $colour-name == 'almost-white' {
@@ -50,7 +50,7 @@
     fill: #{$colour};
   }
 
-  &.focused-3afm-j {
+  &.focused-3qFvc8 {
     color: white;
     background-color: rgba($colour, 0.15);
 
